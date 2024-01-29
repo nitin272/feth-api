@@ -7,7 +7,7 @@ function getData() {
   const getCurrent = document.getElementById('current');
 
   fetch(
-    'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=5b9441056bba2ffb0d1da1631c7fc001'
+    'https://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=60503ec62e6ad7048f0751c5b8782c56'
   )
     .then((response) => response.json())
     .then((data) => {
